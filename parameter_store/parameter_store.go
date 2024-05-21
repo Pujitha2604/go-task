@@ -17,6 +17,7 @@ import (
 var client *mongo.Client
 var parameterStore *ssm.SSM
 
+
 func main() {
 	var err error
 	// Initialize MongoDB client
